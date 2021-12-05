@@ -3,7 +3,7 @@
 // Author: Jackie P, aka TheDataElemental
 
 let guess = ""
-let answer = 64
+let answer = Math.floor(Math.random() * 100)
 
 // Main game loop
 while(guess != answer) {
