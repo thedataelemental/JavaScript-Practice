@@ -33,13 +33,13 @@ function game_over_check() {
 
 
 let welcome_text = `Welcome to Tic Tac Toe.
-You're X, and I'm O.`
+You're X, and I'm O.`;
 
 let prompt_text = `Options include:
 NW (Northwest), N (North), NE (Northeast),
 W (West), C (Center), E (East) ,
 SW (Southwest), S (South), and SE (Southeast). 
-Choose your space: \n`
+Choose your space: \n`;
 
 // Generate blank board
 const spaces = {
